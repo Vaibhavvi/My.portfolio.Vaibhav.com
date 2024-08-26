@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    overflow-x: hidden;
+
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Dube2.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.container {
+    padding: 30px 0px;
+}
+
+.container nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 38px;
+    width: 200px;
+}
+
+nav ul {
+
+    display: flex;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+}
+
+nav ul li a {
+    color: #e63f3f;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5sec;
+}
+
+nav ul li a:hover {
+    width: 100%;
+}
+
+.content-header {
+    margin-top: 23%;
+    font-size: 25px;
+}
+
+.content-header h1 {
+    padding-top: 25px;
+    font-size: 40px;
+    margin-left: 50px;
+    color: red;
+}
+
+.content-header h3 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.content-header span {
+    color: #cb1417;
+}
+/*-------------------------About------------------*/
+.container-about {
+    padding: 40px 0px;
+}
+
+#about {
+    padding: 80px 0px;
+
+    background-color: #7a7777;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1 {
+    flex-basis: 35%;
+}
+
+.about-col-1 img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.about-col-2 {
+    flex-basis: 60%;
+    padding-left: 30px;
+}
+
+.sub-title {
+    font-size: 35px;
+    color: #0a0a0a;
+    font-weight: 600;
+    padding-left: 3%;
+}
+
+.tab-title {
+    display: flex;
+    margin: 20px 40px;
+}
+
+.tab-links {
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #fbf5f7;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+
+}
+
+.tab-links.active-link::after {
+    width: 50%;
+}
+
+.tab-contents ul li {
+    list-style: none;
+    margin: 10px 0px;
+
+}
+
+.tab-contents ul li span {
+    color: #fcf9f9;
+    font-size: 14px;
+}
+
+.tab-contents {
+    display: none;
+}
+
+#skills {
+    display: block;
+}
+
+/*-----------------------------Services--------------------------------*/
+.container-services {
+    padding: 40px 0px;
+}
+
+#services {
+    padding: 30px 0;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+}
+
+.services-list div {
+    background-color: #7a7777;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.services-list div h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.services-list div a {
+    margin-bottom: 15px;
+    color: rgb(249, 248, 251);
+}
+
+/*---------------------------Skill----------------------------------------*/
+.skill-container {
+    padding: 40px 0px;
+}
+
+.col-sm-12 {
+    background-color: #7a7777;
+    padding: 30px 10px;
+}
+
+/*---------------------------Contact------------------------------------*/
+.contact-container {
+    padding: 3px 10px;
+    background-color: #7a7777;
+}
+
+.row {
+    display: flex;
+}
+
+.contact-col-1 {
+    flex-basis: 40%;
+    padding-left: 20px;
+}
+
+.contact-col-1 h3 {
+    padding-bottom: 10px 0px;
+    color: #f8f7fa;
+}
+
+.contact-col-1 p {
+    padding-bottom: 10px 0px;
+    color: black;
+}
+
+.contact-col-2 {
+    flex-basis: 50%;
+    padding-left: 40px;
+}
+
+.contact-content {
+    padding: 15px 0;
+}
+
+.contact-col-2 .input-inner {
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.contact-col-2 .input-inner input {
+    border-radius: 5px;
+}
+button{
+    height: auto;
+    width: 100px;
+    background-color: #ff004f;
+    color: #fff9f9;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+button:hover{
+    background-color:  #fff9f9;
+    color: #ff004f;
+
+}
+
+/*-------------------------------------Footer---------------------*/
+.info {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.info i {
+    padding: 0px 10px;
+    font-size: 22px;
+}
