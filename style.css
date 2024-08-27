@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #fff;
+    background-color:#E8E8E8;
     color: #000;
     overflow-x: hidden;
 
@@ -48,7 +48,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #e63f3f;
+    color:#EC6635;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -79,7 +79,7 @@ nav ul li a:hover {
     padding-top: 25px;
     font-size: 40px;
     margin-left: 50px;
-    color: red;
+    color:#2E1212;
 }
 
 .content-header h3 {
@@ -98,7 +98,7 @@ nav ul li a:hover {
 #about {
     padding: 80px 0px;
 
-    background-color: #7a7777;
+    background-color: #E2EAF4;
 }
 
 .row {
@@ -113,7 +113,9 @@ nav ul li a:hover {
 
 .about-col-1 img {
     width: 100%;
-    border-radius: 18px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left:30px;
 }
 
 .about-col-2 {
@@ -164,7 +166,7 @@ nav ul li a:hover {
 }
 
 .tab-contents ul li span {
-    color: #fcf9f9;
+    color:#E51231;
     font-size: 14px;
 }
 
@@ -178,7 +180,7 @@ nav ul li a:hover {
 
 /*-----------------------------Services--------------------------------*/
 .container-services {
-    padding: 40px 0px;
+    padding: 60px 0px;
 }
 
 #services {
@@ -221,13 +223,13 @@ nav ul li a:hover {
 }
 
 .col-sm-12 {
-    background-color: #7a7777;
+    background-color: #E2EAF4;
     padding: 30px 10px;
 }
 
 /*---------------------------Contact------------------------------------*/
 .contact-container {
-    padding: 3px 10px;
+    padding: 50px 10px;
     background-color: #7a7777;
 }
 
@@ -253,6 +255,9 @@ nav ul li a:hover {
 .contact-col-2 {
     flex-basis: 50%;
     padding-left: 40px;
+    border: 1px solid green;
+    border-radius: 15px;
+    margin-right: 20px;
 }
 
 .contact-content {
