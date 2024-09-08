@@ -112,7 +112,7 @@ nav ul li a:hover {
 }
 
 .about-col-1 img {
-    width: 100%;
+    width: auto;
     border: 1px solid black;
     border-radius: 20px;
     margin-left:30px;
@@ -255,6 +255,7 @@ nav ul li a:hover {
 .contact-col-2 {
     flex-basis: 50%;
     padding-left: 40px;
+    padding: 30px;
     border: 1px solid green;
     border-radius: 15px;
     margin-right: 20px;
@@ -265,22 +266,29 @@ nav ul li a:hover {
 }
 
 .contact-col-2 .input-inner {
-    padding: 15px;
-    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px 5px;
+
+    border-radius: 5px;
 }
 
 .contact-col-2 .input-inner input {
     border-radius: 5px;
 }
-button{
+#contact-btn{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     height: auto;
-    width: 100px;
+    width: 140px;
     background-color: #ff004f;
     color: #fff9f9;
     border: 1px solid black;
-    border-radius: 30px;
+    border-radius: 10px;
 }
-button:hover{
+#contact-btn:hover{
     background-color:  #fff9f9;
     color: #ff004f;
 
